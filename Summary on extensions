@@ -1,0 +1,34 @@
+# Task 7 - Identify and Remove Suspicious Browser Extensions
+
+## Objective
+Learn how to spot and remove potentially harmful browser extensions and understand the role of service workers in browser security.
+
+## Steps Followed
+1. Opened the Extensions Manager to view all installed extensions.
+2. Reviewed permissions, developer info, and reviews for each extension.
+3. Checked Service Worker activity via Developer Mode for suspicious background scripts.
+4. Identified suspicious or unnecessary extensions.
+5. Removed/disabled suspicious extensions and confirmed their service workers were unregistered.
+6. Restarted the browser to check performance improvements.
+7. Researched how malicious extensions and service workers can harm users.
+
+## Key Findings
+- Some extensions requested excessive permissions or ran unnecessary service worker activity.
+- Removing them improved browser security and ensured no hidden background scripts persisted.
+
+## Risks of Malicious Extensions & Service Workers
+- Data theft (passwords, browsing history).
+- Injection of ads or malicious code.
+- Unwanted tracking across websites.
+- Persistent background tasks using service workers.
+
+## Best Practices
+- Install extensions only from trusted sources.
+- Review permissions before installation.
+- Regularly audit and remove unused extensions.
+- Monitor service worker activity for suspicious behavior.
+- Keep extensions updated and report malicious ones.
+
+---
+This task increased awareness of browser security risks and highlighted how extensions and service workers can affect user privacy and safety.
+
